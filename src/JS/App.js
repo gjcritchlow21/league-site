@@ -2,11 +2,12 @@
 
 import React from 'react';
 import '../App.css';
-import Header from './Header';
-//import About from './About'
-//import Portfolio from './Portfolio'
 import { Switch, Route } from 'react-router-dom';
+import Header from './header';
+import theLeague from './theLeague';
 import codeBeast from '../images/codebeasts.png'
+import LeagueHistory from './leagueHistory';
+import CommishComments from './commish';
 
 
 //react router
@@ -17,8 +18,9 @@ function App() {
       <Header />
       <Switch>
         <Route exact path={'/'} component={Home} />
-        //<Route path={'/about'} component={About} />
-        //<Route path={'/portfolio'} component={Portfolio} />
+        <Route path={'/theLeague'} component={theLeague} />
+        <Route path={'/leagueHistory'} component={LeagueHistory} />
+        <Route path={'/commish'} component={CommishComments} />
       </Switch>
     </div>
 
@@ -27,16 +29,15 @@ function App() {
 //home page
 function Home(props) {
   return (
-    <div className="home-container">
-      <div id="homeTop-wrapper">
-        <div id='curretnWinner'>
-          <h1>Congratulations to the 2019-20 Champion</h1>
+      <div className="home-container">
+        <div className='home-image-wrapper'>
+          <img id="beast" src={codeBeast} alt="3peat"></img>
         </div>
-        <div id='home-image-wrapper'>
-          <img id="beast" src={codeBeast}></img>
+        <div className="currentWinner">
+          <h1>Congratulations to the 2019-20 Champion</h1>
+          <h2>G.J. Critchlow - "Grab 'em by the Percy"</h2>
         </div>
       </div>
-    </div>
   )
 }
 
