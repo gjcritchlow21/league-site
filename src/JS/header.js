@@ -2,10 +2,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 //header with navigation through router
 function Header(props) {
   return (
-    <div className="header-container">
+    <div className="header-container" >
       <div id="name-header">
         <Link id="home-link" to={"/"}>
           <h1>The League</h1>
@@ -21,7 +22,7 @@ function Header(props) {
         <Link id="head-links" to={"/commish"}>
           Commish
         </Link>
-      </div>
+      </div>``
     </div>
   );
 }

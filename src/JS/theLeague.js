@@ -37,15 +37,14 @@ function theLeague() {
         <div className="gj-wrapper">
           <div id="name">
             <h3>G.J. "Duck" Critchlow</h3>
-            <h4>Cones: 3</h4>
-            <h4>Mollies: 1.5*</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec. Molestie ac feugiat sed lectus. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Pellentesque nec nam aliquam sem et tortor. Phasellus vestibulum lorem sed risus ultricies tristique. Viverra suspendisse potenti nullam ac tortor. Aenean pharetra magna ac placerat vestibulum. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Nec feugiat nisl pretium fusce id velit. Mus mauris vitae ultricies leo integer malesuada. Sed ullamcorper morbi tincidunt ornare massa eget egestas. Vitae auctor eu augue ut lectus arcu bibendum. Lacinia at quis risus sed vulputate. At urna condimentum mattis pellentesque id. Mauris vitae ultricies leo integer.</p>
           </div>
           <img id="gj-profPic" src={GJ} alt="Champion" />
         </div>
         <div className="chris-wrapper">
           <div id="name">
             <h3>Chris "Clutch" Gendron</h3>
-            <p>Chris's fantasy football career has been less of career and more of shit show. Constantly having the right pieces, but nothing to show for it. His affinity for the waiver wire claims only show his inempti</p>
+            <p>Chris's fantasy football career has been less of career and more of shit show. Constantly having the right pieces, but nothing to show for it. His affinity for the waiver wire claims only illustrates his overthinking and lack of patience, while his 2</p>
           </div>
           <img id="chris-profPic" src={Chris} alt="Clutch" />
         </div>
