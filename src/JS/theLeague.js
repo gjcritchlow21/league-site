@@ -51,48 +51,42 @@ function theLeague() {
         <div className="matt-wrapper">
           <div id="name">
             <h3>Matt "Efukt" Olson</h3>
-            <h4>Cones: 0</h4>
-            <h4>Mollies: 0</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec. Molestie ac feugiat sed lectus. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Pellentesque nec nam aliquam sem et tortor. Phasellus vestibulum lorem sed risus ultricies tristique. Viverra suspendisse potenti nullam ac tortor. Aenean pharetra magna ac placerat vestibulum. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Nec feugiat nisl pretium fusce id velit. Mus mauris vitae ultricies leo integer malesuada. Sed ullamcorper morbi tincidunt ornare massa eget egestas. Vitae auctor eu augue ut lectus arcu bibendum. Lacinia at quis risus sed vulputate. At urna condimentum mattis pellentesque id. Mauris vitae ultricies leo integer.</p>
           </div>
           <img id="matt-profPic" src={Matt} alt="Bedbug" />
         </div>
         <div className="joe-wrapper">
           <div id="name">
             <h3>Joe "Macho Man" Landry</h3>
-            <h4>Cones: 1</h4>
-            <h4>Mollies: 0</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec. Molestie ac feugiat sed lectus. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Pellentesque nec nam aliquam sem et tortor. Phasellus vestibulum lorem sed risus ultricies tristique. Viverra suspendisse potenti nullam ac tortor. Aenean pharetra magna ac placerat vestibulum. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Nec feugiat nisl pretium fusce id velit. Mus mauris vitae ultricies leo integer malesuada. Sed ullamcorper morbi tincidunt ornare massa eget egestas. Vitae auctor eu augue ut lectus arcu bibendum. Lacinia at quis risus sed vulputate. At urna condimentum mattis pellentesque id. Mauris vitae ultricies leo integer.</p>
           </div>
           <img id="joe-profPic" src={Joe} alt="Joe" />
         </div>    
         <div className="forest-wrapper">
           <div id="name">
             <h3>Forest "For the trees" Westbay</h3>
-            <h4>Cones: 1</h4>
-            <h4>Mollies: 0</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec. Molestie ac feugiat sed lectus. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Pellentesque nec nam aliquam sem et tortor. Phasellus vestibulum lorem sed risus ultricies tristique. Viverra suspendisse potenti nullam ac tortor. Aenean pharetra magna ac placerat vestibulum. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Nec feugiat nisl pretium fusce id velit. Mus mauris vitae ultricies leo integer malesuada. Sed ullamcorper morbi tincidunt ornare massa eget egestas. Vitae auctor eu augue ut lectus arcu bibendum. Lacinia at quis risus sed vulputate. At urna condimentum mattis pellentesque id. Mauris vitae ultricies leo integer.</p>
           </div>
           <img id="forest-profPic" src={Forest} alt="Forest" />
         </div>
         <div className="strick-wrapper">
           <div id="name">
             <h3>Kyle "Drain" Strickland</h3>
-            <h4>Cones: 0</h4>
-            <h4>Mollies: 2</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec. Molestie ac feugiat sed lectus. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Pellentesque nec nam aliquam sem et tortor. Phasellus vestibulum lorem sed risus ultricies tristique. Viverra suspendisse potenti nullam ac tortor. Aenean pharetra magna ac placerat vestibulum. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Nec feugiat nisl pretium fusce id velit. Mus mauris vitae ultricies leo integer malesuada. Sed ullamcorper morbi tincidunt ornare massa eget egestas. Vitae auctor eu augue ut lectus arcu bibendum. Lacinia at quis risus sed vulputate. At urna condimentum mattis pellentesque id. Mauris vitae ultricies leo integer.</p>
           </div>
           <img id="strick-profPic" src={Strick} alt="Standard" />
         </div>
         <div className="jeff-wrapper">
           <div id="name">
             <h3>Jeff Nagle</h3>
-            <h4>Cones: 0</h4>
-            <h4>Mollies: 0</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec. Molestie ac feugiat sed lectus. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Pellentesque nec nam aliquam sem et tortor. Phasellus vestibulum lorem sed risus ultricies tristique. Viverra suspendisse potenti nullam ac tortor. Aenean pharetra magna ac placerat vestibulum. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Nec feugiat nisl pretium fusce id velit. Mus mauris vitae ultricies leo integer malesuada. Sed ullamcorper morbi tincidunt ornare massa eget egestas. Vitae auctor eu augue ut lectus arcu bibendum. Lacinia at quis risus sed vulputate. At urna condimentum mattis pellentesque id. Mauris vitae ultricies leo integer.</p>
           </div>
           <img id="jeff-profPic" src={Jeff} alt="Jefe" />
         </div>
         <div className="tucker-wrapper">
           <div id="name">
             <h3>Tucker "Taco" Labare</h3>
-            <h4>Cones: Almost 1</h4>
-            <h4>Mollies: 2</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec. Molestie ac feugiat sed lectus. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Pellentesque nec nam aliquam sem et tortor. Phasellus vestibulum lorem sed risus ultricies tristique. Viverra suspendisse potenti nullam ac tortor. Aenean pharetra magna ac placerat vestibulum. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Nec feugiat nisl pretium fusce id velit. Mus mauris vitae ultricies leo integer malesuada. Sed ullamcorper morbi tincidunt ornare massa eget egestas. Vitae auctor eu augue ut lectus arcu bibendum. Lacinia at quis risus sed vulputate. At urna condimentum mattis pellentesque id. Mauris vitae ultricies leo integer.</p>
           </div>
           <img id="tucker-profPic" src={Tucker} alt="Taco" />
         </div>
