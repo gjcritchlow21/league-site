@@ -49,13 +49,62 @@ const pollStyles3 = {
   theme: "blue",
 };
 
+const pollQuestion4 = "COVID-19 Roster extention";
+const pollAnswers4 = [
+  { option: "19", votes: 0 },
+  { option: "18", votes: 0 },
+  { option: "None", votes: 0 },
+];
+
+const pollStyles4 = {
+  questionSeparator: true,
+  questionSeparatorWidth: "question",
+  questionBold: true,
+  questionColor: "#002A5E",
+  align: "center",
+  theme: "blue",
+};
+
+const pollQuestion5 = "IR-Spot";
+const pollAnswers5 = [
+  { option: "Yes", votes: 0 },
+  { option: "No", votes: 0 },
+];
+
+const pollStyles5 = {
+  questionSeparator: true,
+  questionSeparatorWidth: "question",
+  questionBold: true,
+  questionColor: "#002A5E",
+  align: "center",
+  theme: "blue",
+};
+
+const pollQuestion6 = "Missed Kicks";
+const pollAnswers6 = [
+  { option: "-1 Points", votes: 0 },
+  { option: "0 Points", votes: 0 },
+];
+
+const pollStyles6 = {
+  questionSeparator: true,
+  questionSeparatorWidth: "question",
+  questionBold: true,
+  questionColor: "#002A5E",
+  align: "center",
+  theme: "blue",
+};
+
 //creating Poll class
 class PollQuestion extends Component {
   // Setting answers to state to reload the component with each vote
   state = {
     pollAnswers1: [...pollAnswers1],
     pollAnswers2: [...pollAnswers2],
-    pollAnswers3: { ...pollAnswers3 },
+    pollAnswers3: [ ...pollAnswers3 ],
+    pollAnswers4: [...pollAnswers4],
+    pollAnswers5: [...pollAnswers5],
+    pollAnswers6: [...pollAnswers6]
   };
 
   handleVote = (voteAnswer, pollAnswers, pollNumber) => {
@@ -72,15 +121,27 @@ class PollQuestion extends Component {
       this.setState({
         pollAnswers2: newPollAnswers,
       });
-    } else {
+    } else if (pollNumber === 3) {
       this.setState({
         pollAnswers3: newPollAnswers,
+      })
+    } else if (pollNumber === 4) {
+      this.setState({
+        pollAnswers4: newPollAnswers,
+      })
+    } else if (pollNumber === 5) {
+      this.setState({
+        pollAnswers5: newPollAnswers,
+      })
+    } else {
+      this.setState({
+        pollAnswers6: newPollAnswers,
       });
     }
   };
 
   render() {
-    const { pollAnswers1, pollAnswers2 } = this.state;
+    const { pollAnswers1, pollAnswers2, pollAnswers3, pollAnswers4, pollAnswers5 } = this.state;
     return (
       <div className="poll-wrapper">
         <h2>2020-21 Purposed Changes</h2>
@@ -115,8 +176,38 @@ class PollQuestion extends Component {
               customStyles={pollStyles3}
             />
           </div>
+          <div className="poll">
+          <Poll
+              question={pollQuestion4}
+              answers={pollAnswers4}
+              onVote={(voteAnswer) =>
+                this.handleVote(voteAnswer, pollAnswers4, 4)
+              }
+              customStyles={pollStyles4}
+            />
+          </div>
+          <div className="poll">
+          <Poll
+              question={pollQuestion5}
+              answers={pollAnswers5}
+              onVote={(voteAnswer) =>
+                this.handleVote(voteAnswer, pollAnswers5, 5)
+              }
+              customStyles={pollStyles5}
+            />
+          </div>
+          <div className="poll">
+          <Poll
+              question={pollQuestion6}
+              answers={pollAnswers6}
+              onVote={(voteAnswer) =>
+                this.handleVote(voteAnswer, pollAnswers6, 6)
+              }
+              customStyles={pollStyles6}
+            />
+          </div>
+          </div>
         </div>
-      </div>
     );
   }
 }
