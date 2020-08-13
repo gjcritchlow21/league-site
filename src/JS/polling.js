@@ -49,11 +49,10 @@ const pollStyles3 = {
   theme: "blue",
 };
 
-const pollQuestion4 = "COVID-19 Roster extention";
+const pollQuestion4 = "COVID-19 IR Spot";
 const pollAnswers4 = [
-  { option: "19", votes: 0 },
-  { option: "18", votes: 0 },
-  { option: "None", votes: 0 },
+  { option: "Yes", votes: 0 },
+  { option: "No", votes: 0 },
 ];
 
 const pollStyles4 = {
@@ -95,16 +94,33 @@ const pollStyles6 = {
   theme: "blue",
 };
 
+const pollQuestion7 = "QB Maximum";
+const pollAnswers7 = [
+  { option: "2", votes: 0 },
+  { option: "3", votes: 0 },
+  { option: "4", votes: 0},
+];
+
+const pollStyles7 = {
+  questionSeparator: true,
+  questionSeparatorWidth: "question",
+  questionBold: true,
+  questionColor: "#002A5E",
+  align: "center",
+  theme: "blue",
+};
+
 //creating Poll class
 class PollQuestion extends Component {
   // Setting answers to state to reload the component with each vote
   state = {
     pollAnswers1: [...pollAnswers1],
     pollAnswers2: [...pollAnswers2],
-    pollAnswers3: [ ...pollAnswers3 ],
+    pollAnswers3: [...pollAnswers3],
     pollAnswers4: [...pollAnswers4],
     pollAnswers5: [...pollAnswers5],
-    pollAnswers6: [...pollAnswers6]
+    pollAnswers6: [...pollAnswers6],
+    pollAnswers7: [...pollAnswers7]
   };
 
   handleVote = (voteAnswer, pollAnswers, pollNumber) => {
@@ -133,9 +149,13 @@ class PollQuestion extends Component {
       this.setState({
         pollAnswers5: newPollAnswers,
       })
-    } else {
+    } else if (pollNumber === 6) {
       this.setState({
         pollAnswers6: newPollAnswers,
+      })
+    } else {
+      this.setState({
+        pollAnswers7: newPollAnswers,
       });
     }
   };
@@ -204,6 +224,16 @@ class PollQuestion extends Component {
                 this.handleVote(voteAnswer, pollAnswers6, 6)
               }
               customStyles={pollStyles6}
+            />
+          </div>
+          <div className="poll">
+          <Poll
+              question={pollQuestion7}
+              answers={pollAnswers7}
+              onVote={(voteAnswer) =>
+                this.handleVote(voteAnswer, pollAnswers6, 7)
+              }
+              customStyles={pollStyles7}
             />
           </div>
           </div>

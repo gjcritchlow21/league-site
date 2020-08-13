@@ -15,6 +15,9 @@ function Header(props) {
         </Link>
       </div>
       <div id="page-nav">
+        <Link id="head-links" to={"/powerRankings"}>
+          Power Rankings
+        </Link>
         <Link id="head-links" to={"/theLeague"}>
           Members
         </Link>

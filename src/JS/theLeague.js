@@ -44,14 +44,14 @@ function theLeague() {
         <div className="chris-wrapper">
           <div id="name">
             <h3>Chris "Clutch" Gendron</h3>
-            <p>Chris's fantasy football career has been less of career and more of shit show. Constantly having the right pieces, but nothing to show for it. His affinity for the waiver wire claims only illustrates his overthinking and lack of patience, while his 2</p>
+            <p>Chris's fantasy football career has been less of career and more of shit show. Constantly having the right pieces, but nothing to show for it. His affinity for waiver wire claims only illustrates his overthinking and lack of patience.</p>
           </div>
           <img id="chris-profPic" src={Chris} alt="Clutch" />
         </div>
         <div className="matt-wrapper">
           <div id="name">
             <h3>Matt "Efukt" Olson</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec. Molestie ac feugiat sed lectus. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Pellentesque nec nam aliquam sem et tortor. Phasellus vestibulum lorem sed risus ultricies tristique. Viverra suspendisse potenti nullam ac tortor. Aenean pharetra magna ac placerat vestibulum. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Nec feugiat nisl pretium fusce id velit. Mus mauris vitae ultricies leo integer malesuada. Sed ullamcorper morbi tincidunt ornare massa eget egestas. Vitae auctor eu augue ut lectus arcu bibendum. Lacinia at quis risus sed vulputate. At urna condimentum mattis pellentesque id. Mauris vitae ultricies leo integer.</p>
+            <p>Always a bridesmaid, never a bride, Matt has constructed some pretty formidable teams only to watch them crumble when it matters.  </p>
           </div>
           <img id="matt-profPic" src={Matt} alt="Bedbug" />
         </div>
@@ -72,7 +72,7 @@ function theLeague() {
         <div className="strick-wrapper">
           <div id="name">
             <h3>Kyle "Drain" Strickland</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum posuere urna nec. Molestie ac feugiat sed lectus. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Pellentesque nec nam aliquam sem et tortor. Phasellus vestibulum lorem sed risus ultricies tristique. Viverra suspendisse potenti nullam ac tortor. Aenean pharetra magna ac placerat vestibulum. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Nec feugiat nisl pretium fusce id velit. Mus mauris vitae ultricies leo integer malesuada. Sed ullamcorper morbi tincidunt ornare massa eget egestas. Vitae auctor eu augue ut lectus arcu bibendum. Lacinia at quis risus sed vulputate. At urna condimentum mattis pellentesque id. Mauris vitae ultricies leo integer.</p>
+            <p>Widely considered to be one of the worst fantasy managers in the game, Kyle has managed to make the playoffs 3 times, loosing in the first round each time. </p>
           </div>
           <img id="strick-profPic" src={Strick} alt="Standard" />
         </div>

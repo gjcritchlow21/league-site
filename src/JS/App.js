@@ -4,11 +4,12 @@ import React from "react";
 import "../App.css";
 import { Switch, Route } from "react-router-dom";
 import Header from "./header";
+import PowerRankings from "./powerRankings";
 import theLeague from "./theLeague";
-import codeBeast from "../images/codebeasts.png";
 import LeagueHistory from "./leagueHistory";
 import CommishComments from "./commish";
 import ChatApp from "./chatty";
+import codeBeast from "../images/codebeasts.png";
 
 //react router
 //needs setup of pages before work can be done on pages.
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path={"/"} component={Home} />
+        <Route path={"/powerRankings"} component={PowerRankings} />
         <Route path={"/theLeague"} component={theLeague} />
         <Route path={"/leagueHistory"} component={LeagueHistory} />
         <Route path={"/commish"} component={CommishComments} />
